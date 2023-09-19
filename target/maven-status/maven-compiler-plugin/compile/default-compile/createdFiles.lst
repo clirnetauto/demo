@@ -1,0 +1,6 @@
+com\clirnet\setup\MobileAccess.class
+com\clirnet\setup\scrollfunction.class
+com\clirnet\setup\Basic.class
+com\clirnet\setup\WebDriverInit.class
+com\clirnet\setup\MobDriverInit.class
+com\clirnet\setup\WebAccess.class
