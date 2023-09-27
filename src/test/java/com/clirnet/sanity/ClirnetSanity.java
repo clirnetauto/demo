@@ -346,7 +346,7 @@ public class ClirnetSanity
     	
     	{
         	WebDriverWait wait = new WebDriverWait(WebDriverInit.getDriver(),Duration.ofSeconds(10));
-        	WebDriverInit.getDriver().findElement(By.xpath("//h4[contains(.,'CLIRNET PG Forum')]")).click();
+        	WebDriverInit.getDriver().findElement(By.xpath("//div[@id='main_outlet']/div/div/div/div[2]/div/div[2]/div/div[2]")).click();
         	Thread.sleep(5000);
             	
     	}
