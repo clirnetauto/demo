@@ -306,7 +306,7 @@ public class ClirnetSanity
         	wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("common_nav_bar_certificate")));
         	WebDriverInit.getDriver().findElement(By.id("common_nav_bar_certificate")).click();
         	Thread.sleep(4000);
-        	WebDriverInit.getDriver().findElement(By.cssSelector(".false:nth-child(1) .object-fit-cover")).click();
+        	WebDriverInit.getDriver().findElement(By.cssSelector(".clr_v3_card:nth-child(1) .object-fit-cover")).click();
         	Thread.sleep(3000);
         	
         	
