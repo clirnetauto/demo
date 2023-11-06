@@ -97,8 +97,8 @@ public class ClirnetSanity
     	
     	{
         	WebDriverWait wait = new WebDriverWait(WebDriverInit.getDriver(),Duration.ofSeconds(10));
-        	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(.,'DocTube™')]")));
-        	WebDriverInit.getDriver().findElement(By.xpath("//span[contains(.,'DocTube™')]")).click();
+        	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(.,'Doctube ™')]")));
+        	WebDriverInit.getDriver().findElement(By.xpath("//span[contains(.,'Doctube ™')]")).click();
         	
         	wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Edit profile")));
         	WebElement ele=WebDriverInit.getDriver().findElement(By.linkText("Edit profile"));
