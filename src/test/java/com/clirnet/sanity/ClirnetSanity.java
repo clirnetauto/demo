@@ -152,7 +152,6 @@ public class ClirnetSanity
         	wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Live CME")));
         	WebDriverInit.getDriver().findElement(By.linkText("Live CME")).click();
         	Thread.sleep(2000);
-        	    	
     	}
         
         @Test (priority=6)
@@ -410,3 +409,4 @@ public class ClirnetSanity
  
      
     }
+    
