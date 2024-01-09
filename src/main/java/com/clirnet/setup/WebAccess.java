@@ -69,7 +69,7 @@ public static String chromepath;
 			//driver = new FirefoxDriver();
 			
 			
-			System.setProperty("webdriver.chrome.driver", "E:\\workspace\\ClirnetAutomationJenkins\\chromedriver\\chromedriver.exe");
+		//	System.setProperty("webdriver.chrome.driver", "E:\\workspace\\ClirnetAutomationJenkins\\chromedriver\\chromedriver.exe");
 			driver = new ChromeDriver();
 			WebDriverInit.initDriver(driver);
 		
