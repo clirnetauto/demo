@@ -46,7 +46,7 @@ public class ClirnetSanity
 //URL configuartion		
 		//Stagging URL
 		//WebDriverInit.getDriver().get("https://doc.clirnet.com/");
-		
+		//WebDriverInit.getDriver().get("https://doctor.clirdev.com/");
 		//Production url
 		WebDriverInit.getDriver().get("https://doctor.clirnet.com/");
 		
@@ -204,9 +204,9 @@ public class ClirnetSanity
         
         @Test (priority=9)
         
-        public static void CoursesClick() throws InterruptedException
+        public static void CoursesClick() throws InterruptedException 	
     	
-    	{
+        {
         	WebDriverWait wait = new WebDriverWait(WebDriverInit.getDriver(),Duration.ofSeconds(10));
         	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(.,'Explore')]")));
         	WebDriverInit.getDriver().findElement(By.xpath("//span[contains(.,'Explore')]")).click();
@@ -321,10 +321,10 @@ public class ClirnetSanity
         	Thread.sleep(4000);
         	WebDriverInit.getDriver().findElement(By.cssSelector(".clr_v3_card:nth-child(1) .object-fit-cover")).click();
         	Thread.sleep(3000);
-//        	WebDriverInit.getDriver().findElement(By.xpath("//button[contains(.,'Verify')]")).click();
-//        	
-//        	Thread.sleep(3000);
-//        	
+        	WebDriverInit.getDriver().findElement(By.xpath("//button[contains(.,'Verify')]")).click();
+        	
+        	Thread.sleep(3000);
+        	
         	    	
     	}
         
